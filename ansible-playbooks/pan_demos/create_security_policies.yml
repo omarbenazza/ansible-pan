@@ -16,8 +16,7 @@
   connection: local
   gather_facts: False
 
-  roles:
-    - role: PaloAltoNetworks.paloaltonetworks
+
 
   tasks:
     - name: include variables (free-form)
